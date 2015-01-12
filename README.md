@@ -8,7 +8,7 @@ The service is proteced with a Signature Level permission
 The second app, named as "second", is only uses the permission to protect the first's background service. 
 Just because they are signed with the same developer certificate, none of the permissions are requested upon the installation of the second app.
 
-Second app triggers the first app's background service with an intent and gets the contact db without using the com.android.READ_CONTACTS permission and sends all the contact list to the C&C server as a parameter of GET request by triggering web browser app.
+Second app triggers the first app's background service with an intent and gets the contact db without using the <b>com.android.READ_CONTACTS</b> permission and sends all the contact list to the C&C server as a parameter of GET request by triggering web browser app.
 
 At the end second app uses the "read contact" priviledge of first app and the "internet" priviledge of the Browser app.
 
