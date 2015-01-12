@@ -1,5 +1,5 @@
 # Android-Permission-Usage-Without-Defining
-Using Android Signature Level Permissions to Use Undefined Permissions
+Android Signature Level Permissions to Use Undefined Permissions
 
 In this project there are two applications.
 First one, named as "first", uses the permission to read contacts and creates a background service to provide the contact list if it is asked. 
